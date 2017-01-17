@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F57B4831D9217020046A119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F57B4821D9217020046A119 /* main.m */; };
+		7F57B4861D9217020046A119 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F57B4851D9217020046A119 /* AppDelegate.m */; };
+		7F57B4891D9217020046A119 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F57B4881D9217020046A119 /* ViewController.m */; };
+		7F57B48C1D9217020046A119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B48A1D9217020046A119 /* Main.storyboard */; };
+		7F57B48E1D9217020046A119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B48D1D9217020046A119 /* Assets.xcassets */; };
+		7F57B4911D9217020046A119 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B48F1D9217020046A119 /* LaunchScreen.storyboard */; };
+		7F57B4991D9217FF0046A119 /* spus.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4981D9217FF0046A119 /* spus.plist */; };
+		7F57B4C21D921A2B0046A119 /* 白米饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B49A1D921A2B0046A119 /* 白米饭.jpg */; };
+		7F57B4C31D921A2B0046A119 /* 超级秒杀A款套餐.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B49B1D921A2B0046A119 /* 超级秒杀A款套餐.jpg */; };
+		7F57B4C41D921A2B0046A119 /* 超级秒杀B款套餐.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B49C1D921A2B0046A119 /* 超级秒杀B款套餐.jpg */; };
+		7F57B4C51D921A2B0046A119 /* 超级秒杀C款套餐.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B49D1D921A2B0046A119 /* 超级秒杀C款套餐.jpg */; };
+		7F57B4C61D921A2B0046A119 /* 超级秒杀D款套餐.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B49E1D921A2B0046A119 /* 超级秒杀D款套餐.jpg */; };
+		7F57B4C71D921A2B0046A119 /* 驰名娜鲁湾卤肉饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B49F1D921A2B0046A119 /* 驰名娜鲁湾卤肉饭.jpg */; };
+		7F57B4C81D921A2B0046A119 /* 非同凡响小炒肉饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4A01D921A2B0046A119 /* 非同凡响小炒肉饭.jpg */; };
+		7F57B4C91D921A2B0046A119 /* 疯狂对翅拼卤肉饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4A11D921A2B0046A119 /* 疯狂对翅拼卤肉饭.jpg */; };
+		7F57B4CA1D921A2B0046A119 /* 果粒橙.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4A21D921A2B0046A119 /* 果粒橙.jpg */; };
+		7F57B4CB1D921A2B0046A119 /* 海南岛椰汁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4A31D921A2B0046A119 /* 海南岛椰汁.jpg */; };
+		7F57B4CC1D921A2B0046A119 /* 红葡萄汁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4A41D921A2B0046A119 /* 红葡萄汁.jpg */; };
+		7F57B4CD1D921A2B0046A119 /* 厚味孜然烤肉饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4A51D921A2B0046A119 /* 厚味孜然烤肉饭.jpg */; };
+		7F57B4CE1D921A2B0046A119 /* 虎皮鲜椒酱.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4A61D921A2B0046A119 /* 虎皮鲜椒酱.jpg */; };
+		7F57B4CF1D921A2B0046A119 /* 加多宝.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4A71D921A2B0046A119 /* 加多宝.jpg */; };
+		7F57B4D01D921A2B0046A119 /* 加辣.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4A81D921A2B0046A119 /* 加辣.jpg */; };
+		7F57B4D11D921A2B0046A119 /* 可口可乐.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4A91D921A2B0046A119 /* 可口可乐.jpg */; };
+		7F57B4D21D921A2B0046A119 /* 老坛梅菜扣肉饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4AA1D921A2B0046A119 /* 老坛梅菜扣肉饭.jpg */; };
+		7F57B4D31D921A2B0046A119 /* 乐优黄金焖鸡饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4AB1D921A2B0046A119 /* 乐优黄金焖鸡饭.jpg */; };
+		7F57B4D41D921A2B0046A119 /* 芒果汁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4AC1D921A2B0046A119 /* 芒果汁.jpg */; };
+		7F57B4D51D921A2B0046A119 /* 秘制卤肉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4AD1D921A2B0046A119 /* 秘制卤肉.jpg */; };
+		7F57B4D61D921A2B0046A119 /* 秘制卤肉饭+可口可乐套餐.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4AE1D921A2B0046A119 /* 秘制卤肉饭+可口可乐套餐.jpg */; };
+		7F57B4D71D921A2B0046A119 /* 蜜桃汁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4AF1D921A2B0046A119 /* 蜜桃汁.jpg */; };
+		7F57B4D81D921A2B0046A119 /* 娜鲁湾.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4B01D921A2B0046A119 /* 娜鲁湾.jpg */; };
+		7F57B4D91D921A2B0046A119 /* 南洋咖喱.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4B11D921A2B0046A119 /* 南洋咖喱.jpg */; };
+		7F57B4DA1D921A2B0046A119 /* 南洋咖喱饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4B21D921A2B0046A119 /* 南洋咖喱饭.jpg */; };
+		7F57B4DB1D921A2B0046A119 /* 南洋咖喱鸡肉饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4B31D921A2B0046A119 /* 南洋咖喱鸡肉饭.jpg */; };
+		7F57B4DC1D921A2B0046A119 /* 南洋咖喱鱼排饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4B41D921A2B0046A119 /* 南洋咖喱鱼排饭.jpg */; };
+		7F57B4DD1D921A2B0046A119 /* 柠檬茶.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4B51D921A2B0046A119 /* 柠檬茶.jpg */; };
+		7F57B4DE1D921A2B0046A119 /* 柠檬味汽水.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4B61D921A2B0046A119 /* 柠檬味汽水.jpg */; };
+		7F57B4DF1D921A2B0046A119 /* 牛肉鲜椒酱.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4B71D921A2B0046A119 /* 牛肉鲜椒酱.jpg */; };
+		7F57B4E01D921A2B0046A119 /* 糯香金栗排骨饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4B81D921A2B0046A119 /* 糯香金栗排骨饭.jpg */; };
+		7F57B4E11D921A2B0046A119 /* 热辣春鸡小腿饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4B91D921A2B0046A119 /* 热辣春鸡小腿饭.jpg */; };
+		7F57B4E21D921A2B0046A119 /* 唐洋炸鸡拼卤肉饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4BA1D921A2B0046A119 /* 唐洋炸鸡拼卤肉饭.jpg */; };
+		7F57B4E31D921A2B0046A119 /* 特辣鲜椒酱.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4BB1D921A2B0046A119 /* 特辣鲜椒酱.jpg */; };
+		7F57B4E41D921A2B0046A119 /* 无敌手枪腿拼卤肉饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4BC1D921A2B0046A119 /* 无敌手枪腿拼卤肉饭.jpg */; };
+		7F57B4E51D921A2B0046A119 /* 小茗同学.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4BD1D921A2B0046A119 /* 小茗同学.jpg */; };
+		7F57B4E61D921A2B0046A119 /* 炫酷鸡排拼卤肉饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4BE1D921A2B0046A119 /* 炫酷鸡排拼卤肉饭.jpg */; };
+		7F57B4E71D921A2B0046A119 /* 炫辣鸡排.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4BF1D921A2B0046A119 /* 炫辣鸡排.jpg */; };
+		7F57B4E81D921A2B0046A119 /* 雪碧.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4C01D921A2B0046A119 /* 雪碧.jpg */; };
+		7F57B4E91D921A2B0046A119 /* 怡宝矿泉水.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F57B4C11D921A2B0046A119 /* 怡宝矿泉水.jpg */; };
+		7F57B4EC1D9227290046A119 /* HMSpu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F57B4EB1D9227290046A119 /* HMSpu.m */; };
+		7F57B4EF1D922AFB0046A119 /* HMSpuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F57B4EE1D922AFB0046A119 /* HMSpuCell.m */; };
+		7F57B4F21D925CCE0046A119 /* HMSkuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F57B4F11D925CCE0046A119 /* HMSkuCell.m */; };
+		7F57B4F51D925E5A0046A119 /* HMSku.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F57B4F41D925E5A0046A119 /* HMSku.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F57B47E1D9217020046A119 /* HMTakeOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMTakeOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F57B4821D9217020046A119 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F57B4841D9217020046A119 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F57B4851D9217020046A119 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F57B4871D9217020046A119 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F57B4881D9217020046A119 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F57B48B1D9217020046A119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F57B48D1D9217020046A119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F57B4901D9217020046A119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F57B4921D9217020046A119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F57B4981D9217FF0046A119 /* spus.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = spus.plist; sourceTree = "<group>"; };
+		7F57B49A1D921A2B0046A119 /* 白米饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "白米饭.jpg"; sourceTree = "<group>"; };
+		7F57B49B1D921A2B0046A119 /* 超级秒杀A款套餐.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "超级秒杀A款套餐.jpg"; sourceTree = "<group>"; };
+		7F57B49C1D921A2B0046A119 /* 超级秒杀B款套餐.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "超级秒杀B款套餐.jpg"; sourceTree = "<group>"; };
+		7F57B49D1D921A2B0046A119 /* 超级秒杀C款套餐.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "超级秒杀C款套餐.jpg"; sourceTree = "<group>"; };
+		7F57B49E1D921A2B0046A119 /* 超级秒杀D款套餐.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "超级秒杀D款套餐.jpg"; sourceTree = "<group>"; };
+		7F57B49F1D921A2B0046A119 /* 驰名娜鲁湾卤肉饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "驰名娜鲁湾卤肉饭.jpg"; sourceTree = "<group>"; };
+		7F57B4A01D921A2B0046A119 /* 非同凡响小炒肉饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "非同凡响小炒肉饭.jpg"; sourceTree = "<group>"; };
+		7F57B4A11D921A2B0046A119 /* 疯狂对翅拼卤肉饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "疯狂对翅拼卤肉饭.jpg"; sourceTree = "<group>"; };
+		7F57B4A21D921A2B0046A119 /* 果粒橙.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "果粒橙.jpg"; sourceTree = "<group>"; };
+		7F57B4A31D921A2B0046A119 /* 海南岛椰汁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海南岛椰汁.jpg"; sourceTree = "<group>"; };
+		7F57B4A41D921A2B0046A119 /* 红葡萄汁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "红葡萄汁.jpg"; sourceTree = "<group>"; };
+		7F57B4A51D921A2B0046A119 /* 厚味孜然烤肉饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "厚味孜然烤肉饭.jpg"; sourceTree = "<group>"; };
+		7F57B4A61D921A2B0046A119 /* 虎皮鲜椒酱.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "虎皮鲜椒酱.jpg"; sourceTree = "<group>"; };
+		7F57B4A71D921A2B0046A119 /* 加多宝.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "加多宝.jpg"; sourceTree = "<group>"; };
+		7F57B4A81D921A2B0046A119 /* 加辣.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "加辣.jpg"; sourceTree = "<group>"; };
+		7F57B4A91D921A2B0046A119 /* 可口可乐.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "可口可乐.jpg"; sourceTree = "<group>"; };
+		7F57B4AA1D921A2B0046A119 /* 老坛梅菜扣肉饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "老坛梅菜扣肉饭.jpg"; sourceTree = "<group>"; };
+		7F57B4AB1D921A2B0046A119 /* 乐优黄金焖鸡饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "乐优黄金焖鸡饭.jpg"; sourceTree = "<group>"; };
+		7F57B4AC1D921A2B0046A119 /* 芒果汁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "芒果汁.jpg"; sourceTree = "<group>"; };
+		7F57B4AD1D921A2B0046A119 /* 秘制卤肉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "秘制卤肉.jpg"; sourceTree = "<group>"; };
+		7F57B4AE1D921A2B0046A119 /* 秘制卤肉饭+可口可乐套餐.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "秘制卤肉饭+可口可乐套餐.jpg"; sourceTree = "<group>"; };
+		7F57B4AF1D921A2B0046A119 /* 蜜桃汁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蜜桃汁.jpg"; sourceTree = "<group>"; };
+		7F57B4B01D921A2B0046A119 /* 娜鲁湾.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "娜鲁湾.jpg"; sourceTree = "<group>"; };
+		7F57B4B11D921A2B0046A119 /* 南洋咖喱.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "南洋咖喱.jpg"; sourceTree = "<group>"; };
+		7F57B4B21D921A2B0046A119 /* 南洋咖喱饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "南洋咖喱饭.jpg"; sourceTree = "<group>"; };
+		7F57B4B31D921A2B0046A119 /* 南洋咖喱鸡肉饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "南洋咖喱鸡肉饭.jpg"; sourceTree = "<group>"; };
+		7F57B4B41D921A2B0046A119 /* 南洋咖喱鱼排饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "南洋咖喱鱼排饭.jpg"; sourceTree = "<group>"; };
+		7F57B4B51D921A2B0046A119 /* 柠檬茶.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "柠檬茶.jpg"; sourceTree = "<group>"; };
+		7F57B4B61D921A2B0046A119 /* 柠檬味汽水.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "柠檬味汽水.jpg"; sourceTree = "<group>"; };
+		7F57B4B71D921A2B0046A119 /* 牛肉鲜椒酱.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牛肉鲜椒酱.jpg"; sourceTree = "<group>"; };
+		7F57B4B81D921A2B0046A119 /* 糯香金栗排骨饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "糯香金栗排骨饭.jpg"; sourceTree = "<group>"; };
+		7F57B4B91D921A2B0046A119 /* 热辣春鸡小腿饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "热辣春鸡小腿饭.jpg"; sourceTree = "<group>"; };
+		7F57B4BA1D921A2B0046A119 /* 唐洋炸鸡拼卤肉饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "唐洋炸鸡拼卤肉饭.jpg"; sourceTree = "<group>"; };
+		7F57B4BB1D921A2B0046A119 /* 特辣鲜椒酱.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "特辣鲜椒酱.jpg"; sourceTree = "<group>"; };
+		7F57B4BC1D921A2B0046A119 /* 无敌手枪腿拼卤肉饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "无敌手枪腿拼卤肉饭.jpg"; sourceTree = "<group>"; };
+		7F57B4BD1D921A2B0046A119 /* 小茗同学.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小茗同学.jpg"; sourceTree = "<group>"; };
+		7F57B4BE1D921A2B0046A119 /* 炫酷鸡排拼卤肉饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "炫酷鸡排拼卤肉饭.jpg"; sourceTree = "<group>"; };
+		7F57B4BF1D921A2B0046A119 /* 炫辣鸡排.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "炫辣鸡排.jpg"; sourceTree = "<group>"; };
+		7F57B4C01D921A2B0046A119 /* 雪碧.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "雪碧.jpg"; sourceTree = "<group>"; };
+		7F57B4C11D921A2B0046A119 /* 怡宝矿泉水.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "怡宝矿泉水.jpg"; sourceTree = "<group>"; };
+		7F57B4EA1D9227290046A119 /* HMSpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSpu.h; sourceTree = "<group>"; };
+		7F57B4EB1D9227290046A119 /* HMSpu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSpu.m; sourceTree = "<group>"; };
+		7F57B4ED1D922AFB0046A119 /* HMSpuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSpuCell.h; sourceTree = "<group>"; };
+		7F57B4EE1D922AFB0046A119 /* HMSpuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSpuCell.m; sourceTree = "<group>"; };
+		7F57B4F01D925CCE0046A119 /* HMSkuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSkuCell.h; sourceTree = "<group>"; };
+		7F57B4F11D925CCE0046A119 /* HMSkuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSkuCell.m; sourceTree = "<group>"; };
+		7F57B4F31D925E5A0046A119 /* HMSku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSku.h; sourceTree = "<group>"; };
+		7F57B4F41D925E5A0046A119 /* HMSku.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSku.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F57B47B1D9217020046A119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F57B4751D9217020046A119 = {
+			isa = PBXGroup;
+			children = (
+				7F57B4801D9217020046A119 /* HMTakeOut */,
+				7F57B47F1D9217020046A119 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F57B47F1D9217020046A119 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F57B47E1D9217020046A119 /* HMTakeOut.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F57B4801D9217020046A119 /* HMTakeOut */ = {
+			isa = PBXGroup;
+			children = (
+				94C23D4C1E2DAD3B0055ACF0 /* Models */,
+				94C23D4D1E2DAD470055ACF0 /* Views */,
+				94C23D4E1E2DAD520055ACF0 /* Others */,
+				94C23D4B1E2DAD1E0055ACF0 /* Controllers */,
+				7F57B4811D9217020046A119 /* Supporting Files */,
+			);
+			path = HMTakeOut;
+			sourceTree = "<group>";
+		};
+		7F57B4811D9217020046A119 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F57B48D1D9217020046A119 /* Assets.xcassets */,
+				7F57B4921D9217020046A119 /* Info.plist */,
+				7F57B49A1D921A2B0046A119 /* 白米饭.jpg */,
+				7F57B49B1D921A2B0046A119 /* 超级秒杀A款套餐.jpg */,
+				7F57B49C1D921A2B0046A119 /* 超级秒杀B款套餐.jpg */,
+				7F57B49D1D921A2B0046A119 /* 超级秒杀C款套餐.jpg */,
+				7F57B49E1D921A2B0046A119 /* 超级秒杀D款套餐.jpg */,
+				7F57B49F1D921A2B0046A119 /* 驰名娜鲁湾卤肉饭.jpg */,
+				7F57B4A01D921A2B0046A119 /* 非同凡响小炒肉饭.jpg */,
+				7F57B4A11D921A2B0046A119 /* 疯狂对翅拼卤肉饭.jpg */,
+				7F57B4A21D921A2B0046A119 /* 果粒橙.jpg */,
+				7F57B4A31D921A2B0046A119 /* 海南岛椰汁.jpg */,
+				7F57B4A41D921A2B0046A119 /* 红葡萄汁.jpg */,
+				7F57B4A51D921A2B0046A119 /* 厚味孜然烤肉饭.jpg */,
+				7F57B4A61D921A2B0046A119 /* 虎皮鲜椒酱.jpg */,
+				7F57B4A71D921A2B0046A119 /* 加多宝.jpg */,
+				7F57B4A81D921A2B0046A119 /* 加辣.jpg */,
+				7F57B4A91D921A2B0046A119 /* 可口可乐.jpg */,
+				7F57B4AA1D921A2B0046A119 /* 老坛梅菜扣肉饭.jpg */,
+				7F57B4AB1D921A2B0046A119 /* 乐优黄金焖鸡饭.jpg */,
+				7F57B4AC1D921A2B0046A119 /* 芒果汁.jpg */,
+				7F57B4AD1D921A2B0046A119 /* 秘制卤肉.jpg */,
+				7F57B4AE1D921A2B0046A119 /* 秘制卤肉饭+可口可乐套餐.jpg */,
+				7F57B4AF1D921A2B0046A119 /* 蜜桃汁.jpg */,
+				7F57B4B01D921A2B0046A119 /* 娜鲁湾.jpg */,
+				7F57B4B11D921A2B0046A119 /* 南洋咖喱.jpg */,
+				7F57B4B21D921A2B0046A119 /* 南洋咖喱饭.jpg */,
+				7F57B4B31D921A2B0046A119 /* 南洋咖喱鸡肉饭.jpg */,
+				7F57B4B41D921A2B0046A119 /* 南洋咖喱鱼排饭.jpg */,
+				7F57B4B51D921A2B0046A119 /* 柠檬茶.jpg */,
+				7F57B4B61D921A2B0046A119 /* 柠檬味汽水.jpg */,
+				7F57B4B71D921A2B0046A119 /* 牛肉鲜椒酱.jpg */,
+				7F57B4B81D921A2B0046A119 /* 糯香金栗排骨饭.jpg */,
+				7F57B4B91D921A2B0046A119 /* 热辣春鸡小腿饭.jpg */,
+				7F57B4BA1D921A2B0046A119 /* 唐洋炸鸡拼卤肉饭.jpg */,
+				7F57B4BB1D921A2B0046A119 /* 特辣鲜椒酱.jpg */,
+				7F57B4BC1D921A2B0046A119 /* 无敌手枪腿拼卤肉饭.jpg */,
+				7F57B4BD1D921A2B0046A119 /* 小茗同学.jpg */,
+				7F57B4BE1D921A2B0046A119 /* 炫酷鸡排拼卤肉饭.jpg */,
+				7F57B4BF1D921A2B0046A119 /* 炫辣鸡排.jpg */,
+				7F57B4C01D921A2B0046A119 /* 雪碧.jpg */,
+				7F57B4C11D921A2B0046A119 /* 怡宝矿泉水.jpg */,
+				7F57B4981D9217FF0046A119 /* spus.plist */,
+				7F57B4821D9217020046A119 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94C23D4B1E2DAD1E0055ACF0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F57B4871D9217020046A119 /* ViewController.h */,
+				7F57B4881D9217020046A119 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		94C23D4C1E2DAD3B0055ACF0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F57B4EA1D9227290046A119 /* HMSpu.h */,
+				7F57B4EB1D9227290046A119 /* HMSpu.m */,
+				7F57B4F31D925E5A0046A119 /* HMSku.h */,
+				7F57B4F41D925E5A0046A119 /* HMSku.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		94C23D4D1E2DAD470055ACF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7F57B48F1D9217020046A119 /* LaunchScreen.storyboard */,
+				7F57B48A1D9217020046A119 /* Main.storyboard */,
+				7F57B4ED1D922AFB0046A119 /* HMSpuCell.h */,
+				7F57B4EE1D922AFB0046A119 /* HMSpuCell.m */,
+				7F57B4F01D925CCE0046A119 /* HMSkuCell.h */,
+				7F57B4F11D925CCE0046A119 /* HMSkuCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		94C23D4E1E2DAD520055ACF0 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				7F57B4841D9217020046A119 /* AppDelegate.h */,
+				7F57B4851D9217020046A119 /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F57B47D1D9217020046A119 /* HMTakeOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F57B4951D9217020046A119 /* Build configuration list for PBXNativeTarget "HMTakeOut" */;
+			buildPhases = (
+				7F57B47A1D9217020046A119 /* Sources */,
+				7F57B47B1D9217020046A119 /* Frameworks */,
+				7F57B47C1D9217020046A119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMTakeOut;
+			productName = HMTakeOut;
+			productReference = 7F57B47E1D9217020046A119 /* HMTakeOut.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F57B4761D9217020046A119 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Shenzhen_iOS_07;
+				TargetAttributes = {
+					7F57B47D1D9217020046A119 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7F57B4791D9217020046A119 /* Build configuration list for PBXProject "HMTakeOut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F57B4751D9217020046A119;
+			productRefGroup = 7F57B47F1D9217020046A119 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F57B47D1D9217020046A119 /* HMTakeOut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F57B47C1D9217020046A119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F57B4CC1D921A2B0046A119 /* 红葡萄汁.jpg in Resources */,
+				7F57B4911D9217020046A119 /* LaunchScreen.storyboard in Resources */,
+				7F57B4D71D921A2B0046A119 /* 蜜桃汁.jpg in Resources */,
+				7F57B4DF1D921A2B0046A119 /* 牛肉鲜椒酱.jpg in Resources */,
+				7F57B4E21D921A2B0046A119 /* 唐洋炸鸡拼卤肉饭.jpg in Resources */,
+				7F57B4D81D921A2B0046A119 /* 娜鲁湾.jpg in Resources */,
+				7F57B4C71D921A2B0046A119 /* 驰名娜鲁湾卤肉饭.jpg in Resources */,
+				7F57B4E31D921A2B0046A119 /* 特辣鲜椒酱.jpg in Resources */,
+				7F57B4E81D921A2B0046A119 /* 雪碧.jpg in Resources */,
+				7F57B4D31D921A2B0046A119 /* 乐优黄金焖鸡饭.jpg in Resources */,
+				7F57B4E11D921A2B0046A119 /* 热辣春鸡小腿饭.jpg in Resources */,
+				7F57B4CD1D921A2B0046A119 /* 厚味孜然烤肉饭.jpg in Resources */,
+				7F57B4C51D921A2B0046A119 /* 超级秒杀C款套餐.jpg in Resources */,
+				7F57B4E41D921A2B0046A119 /* 无敌手枪腿拼卤肉饭.jpg in Resources */,
+				7F57B4C31D921A2B0046A119 /* 超级秒杀A款套餐.jpg in Resources */,
+				7F57B4C91D921A2B0046A119 /* 疯狂对翅拼卤肉饭.jpg in Resources */,
+				7F57B4E51D921A2B0046A119 /* 小茗同学.jpg in Resources */,
+				7F57B4C61D921A2B0046A119 /* 超级秒杀D款套餐.jpg in Resources */,
+				7F57B4E91D921A2B0046A119 /* 怡宝矿泉水.jpg in Resources */,
+				7F57B4D61D921A2B0046A119 /* 秘制卤肉饭+可口可乐套餐.jpg in Resources */,
+				7F57B4E61D921A2B0046A119 /* 炫酷鸡排拼卤肉饭.jpg in Resources */,
+				7F57B4D11D921A2B0046A119 /* 可口可乐.jpg in Resources */,
+				7F57B4D51D921A2B0046A119 /* 秘制卤肉.jpg in Resources */,
+				7F57B4DA1D921A2B0046A119 /* 南洋咖喱饭.jpg in Resources */,
+				7F57B4C21D921A2B0046A119 /* 白米饭.jpg in Resources */,
+				7F57B4DE1D921A2B0046A119 /* 柠檬味汽水.jpg in Resources */,
+				7F57B4E71D921A2B0046A119 /* 炫辣鸡排.jpg in Resources */,
+				7F57B4DC1D921A2B0046A119 /* 南洋咖喱鱼排饭.jpg in Resources */,
+				7F57B4CA1D921A2B0046A119 /* 果粒橙.jpg in Resources */,
+				7F57B4E01D921A2B0046A119 /* 糯香金栗排骨饭.jpg in Resources */,
+				7F57B48E1D9217020046A119 /* Assets.xcassets in Resources */,
+				7F57B4D01D921A2B0046A119 /* 加辣.jpg in Resources */,
+				7F57B4D21D921A2B0046A119 /* 老坛梅菜扣肉饭.jpg in Resources */,
+				7F57B48C1D9217020046A119 /* Main.storyboard in Resources */,
+				7F57B4D91D921A2B0046A119 /* 南洋咖喱.jpg in Resources */,
+				7F57B4CB1D921A2B0046A119 /* 海南岛椰汁.jpg in Resources */,
+				7F57B4DD1D921A2B0046A119 /* 柠檬茶.jpg in Resources */,
+				7F57B4D41D921A2B0046A119 /* 芒果汁.jpg in Resources */,
+				7F57B4991D9217FF0046A119 /* spus.plist in Resources */,
+				7F57B4CE1D921A2B0046A119 /* 虎皮鲜椒酱.jpg in Resources */,
+				7F57B4CF1D921A2B0046A119 /* 加多宝.jpg in Resources */,
+				7F57B4C81D921A2B0046A119 /* 非同凡响小炒肉饭.jpg in Resources */,
+				7F57B4DB1D921A2B0046A119 /* 南洋咖喱鸡肉饭.jpg in Resources */,
+				7F57B4C41D921A2B0046A119 /* 超级秒杀B款套餐.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F57B47A1D9217020046A119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F57B4F51D925E5A0046A119 /* HMSku.m in Sources */,
+				7F57B4891D9217020046A119 /* ViewController.m in Sources */,
+				7F57B4861D9217020046A119 /* AppDelegate.m in Sources */,
+				7F57B4EF1D922AFB0046A119 /* HMSpuCell.m in Sources */,
+				7F57B4831D9217020046A119 /* main.m in Sources */,
+				7F57B4F21D925CCE0046A119 /* HMSkuCell.m in Sources */,
+				7F57B4EC1D9227290046A119 /* HMSpu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F57B48A1D9217020046A119 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F57B48B1D9217020046A119 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F57B48F1D9217020046A119 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F57B4901D9217020046A119 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F57B4931D9217020046A119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F57B4941D9217020046A119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F57B4961D9217020046A119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HMTakeOut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itheima.HMTakeOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F57B4971D9217020046A119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HMTakeOut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itheima.HMTakeOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F57B4791D9217020046A119 /* Build configuration list for PBXProject "HMTakeOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F57B4931D9217020046A119 /* Debug */,
+				7F57B4941D9217020046A119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F57B4951D9217020046A119 /* Build configuration list for PBXNativeTarget "HMTakeOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F57B4961D9217020046A119 /* Debug */,
+				7F57B4971D9217020046A119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F57B4761D9217020046A119 /* Project object */;
+}
